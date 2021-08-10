@@ -1,1 +1,54 @@
 /*phil welsby 10 aug 2021 - key code challenge*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*set backgroung colour */
+body {
+    background-color: lightskyblue;
+}
+
+/*heading*/
+h1 {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    padding-top: 350px;
+    padding-bottom: 200px;
+    font-size: 90px;
+}
+
+/*style all buttons*/
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+/*style IDs*/
+#eventKey {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#evenCode {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#eventWhich {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
+
