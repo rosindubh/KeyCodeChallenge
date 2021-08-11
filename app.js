@@ -8,7 +8,7 @@ let eventWhich = document.getElementById('eventWhich')
 let key = document.getElementById('key')
 
 /*main program*/
-document.addEventListener('keypress', () => {
+document.addEventListener('keydown', () => {
     heading.textContent = event.keyCode
     eventKey.textContent = event.key
     eventCode.textContent = event.code
