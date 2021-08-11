@@ -8,7 +8,7 @@
 
 /*set backgroung colour */
 body {
-    background-color: lightskyblue;
+    background-color: indigo;
 }
 
 /*heading*/
@@ -19,6 +19,10 @@ h1 {
     padding-top: 350px;
     padding-bottom: 200px;
     font-size: 90px;
+}
+
+p {
+    font-size: 30px;
 }
 
 /*style all buttons*/
@@ -36,7 +40,7 @@ h1 {
     font-size: 40px;
 }
 
-#evenCode {
+#eventCode {
     padding-top: 20px;
     display: flex;
     justify-content: center;
